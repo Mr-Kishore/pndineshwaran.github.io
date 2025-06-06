@@ -1,32 +1,39 @@
 [
   {
       "grouping":"Architecture",
-      "skills":[ "IP Networking","DNS","Firewalls","Load Balancing","Microservices","RESTful APIs","SaaS/PaaS/IaaS"]
-  },{
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Java","Python","git","subversion","linux","bash","php","jquery","javascript"]
-  },
+      "skills":[ 
+      {"name":"Networking", "icon":"network"},
+      {"name":"PC Building", "icon":"pc-building"},
+      {"name":"Red Team Tools", "icon":"red-team-tools"},
+      {"name":"Penetration Testing", "icon":"penetration-testing"}
+      ]
+  }, 
   {
-      "grouping":"Platform Development & Administration",
-      "skills":[ "Atlassian","Bamboo","Bitbucket","NGINX","MySQL","Wordpress"]
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[
+      {"name":"Java", "icon":"java"},
+      {"name":"Git", "icon":"git"},
+      {"name":"Linux", "icon":"linux"},
+      {"name":"Bash", "icon":"bash"},
+      {"name":"HTML", "icon":"html"},
+      {"name":"CSS", "icon":"css"},
+      {"name":"C#", "icon":"c-sharp"},
+      {"name":"C++", "icon":"c++"},
+      {"name":"Windows", "icon":"windows"}
+      ]
   },
   {
       "grouping":"Data Management",
       "skills":[
-        {"name":"Microsoft SQL Server","icon":"msql_server"},
-        {"name":"Oracle","icon":"database"},
-        "MongoDB",
-        {"name":"Apache Spark"}
+      {"name":"PostgreSQL","icon":"database"},
+      {"name":"MySQL","icon":"database"},
+      {"name":"JDBC","icon":"database"}
       ]
   },
   {
     "grouping":"Containers & Cloud",
       "skills":[
-          {"name":"BOSH","link":"https://bosh.io"},
-          {"name":"Docker","link":"https://docker.com"},
-          {"name":"AWS","link":"https://aws.amazon.com"},
-          {"name":"Google Cloud","link":"https://cloud.google.com"},
-          {"name":"Linux","link":"https://bosh.io"}
+      {"name":"Docker","link":"https://docker.com"}
       ]
   }
 ]
